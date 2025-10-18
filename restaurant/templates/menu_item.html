@@ -34,7 +34,7 @@
                 <img src={% static "media/menu_items/menu_item.image" %} alt="{{ menu_item.name }}" width="300" />
                 {% else %}
                 <p>
-                    <img src="{% static 'images/default.png' %}" alt="No image" width="300" />
+                    <img src="{{ menu_item.image.url }}" alt="{{ menu_item.name }}" width="300" />
                 </p>
                 {% endif %}
             </div>
