@@ -1,1 +1,2 @@
-littlelemon
+web: gunicorn littlelemon.wsgi
+
