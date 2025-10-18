@@ -34,7 +34,7 @@
                 <img src="{{ menu_item.image.url }}" alt="{{ menu_item.name }}" width="300" />
                 {% else %}
                 <p>
-                    no image to show
+                    <img src="{% static 'images/default.png' %}" alt="No image" width="300" />
                 </p>
                 {% endif %}
             </div>

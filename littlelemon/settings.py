@@ -128,6 +128,8 @@ STATIC_URL = 'restaurant/static/'
 
 STATICFILES_DIRS = [
     "restaurant/static",
+    "restaurant/static/menu_items",
+    "littlelemon/menu_images",
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
